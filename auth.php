@@ -1,6 +1,7 @@
 <?php 
 	
 	include './upfile.php';
+	include "./util.php";
 
 	// 获取POST请求的数据,[]里面是key
 
@@ -45,17 +46,17 @@
 
 	
 
-	function getPostValue($key){
-		if (array_key_exists($key, $_POST)) {
-			return $_POST[$key];
-		}
-		return "";
-	}
-	function getGetValue($key){
-		if (array_key_exists($key, $_GET)) {
-			return $_GET[$key];
-		}
-		return "";
-	}
+	// function getPostValue($key){
+	// 	if (array_key_exists($key, $_POST)) {
+	// 		return $_POST[$key];
+	// 	}
+	// 	return "";
+	// }
+	// function getGetValue($key){
+	// 	if (array_key_exists($key, $_GET)) {
+	// 		return $_GET[$key];
+	// 	}
+	// 	return "";
+	// }
 	
  ?>
