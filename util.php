@@ -1,10 +1,10 @@
 <?php 
 
 	function getGetValue($key){
-		return getArrayValue($_GET);
+		return getArrayValue($key,$_GET);
 	}
 	function getPostValue($key){
-		return getArrayValue($_POST);
+		return getArrayValue($key,$_POST);
 	}
 
 	function getArrayValue($key,$array){
