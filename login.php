@@ -8,7 +8,8 @@
 	// echo "用户名:$username,密码:$password"."<hr>";
 
 	$conn = connectDB();
-	// echo "$conn";
+	var_dump($conn);
+	echo "$conn";
 
 	// if($conn && createDB($conn)){
 	// 	echo "数据库创建成功";
